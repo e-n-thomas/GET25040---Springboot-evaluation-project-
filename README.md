@@ -7,7 +7,7 @@ mvn spring-boot:run
 
 ##  Submit Feedback
 ```bash
-curl -X POST http://localhost:8080/feedback -H "Content-Type: application/json" -d '{"name": "John Doe", "email": "john@example.com", "message": "Great API! Keep it up."}'
+curl -X POST http://localhost:8080/feedback -H "Content-Type: application/json" -d "{\"name\":\"Tester\",\"email\":\"email@example.com\",\"message\":\"Test feedback!\"}"
 ```
 
 ## Get All Feedback
